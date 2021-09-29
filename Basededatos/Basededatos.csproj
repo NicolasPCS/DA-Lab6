@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Models\NuevoForm.aspx" />
+    <Content Include="Models\ProductosForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="Models\NuevoForm.aspx.designer.cs">
       <DependentUpon>NuevoForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ProductosForm.aspx.cs">
+      <DependentUpon>ProductosForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\ProductosForm.aspx.designer.cs">
+      <DependentUpon>ProductosForm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
