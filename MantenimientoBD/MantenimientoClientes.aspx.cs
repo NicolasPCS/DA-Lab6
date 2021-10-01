@@ -19,6 +19,9 @@ namespace MantenimientoBD
 
         protected void btnGrabar_Click(object sender, EventArgs e)
         {
+            // Aborta si la pagina no es valida
+            if (!this.IsValid) return;
+
             string insertSQL = "INSERT INTO clientes VALUES ('" +
                 txtCodigo.Text + "', '" + txtNombres.Text + "', '" +
                 txtDireccion.Text + "', '" + txtTelefono.Text + "', '" +

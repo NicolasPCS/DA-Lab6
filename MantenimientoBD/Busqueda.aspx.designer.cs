@@ -11,7 +11,7 @@ namespace MantenimientoBD
 {
 
 
-    public partial class MantenimientoClientes
+    public partial class Busqueda
     {
 
         /// <summary>
@@ -51,13 +51,22 @@ namespace MantenimientoBD
         protected global::System.Web.UI.WebControls.TextBox txtCodigo;
 
         /// <summary>
-        /// Control RequiredFieldValidator1.
+        /// Control btnBuscar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.Button btnBuscar;
+
+        /// <summary>
+        /// Control btnLimpiar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnLimpiar;
 
         /// <summary>
         /// Control Label3.
@@ -78,15 +87,6 @@ namespace MantenimientoBD
         protected global::System.Web.UI.WebControls.TextBox txtNombres;
 
         /// <summary>
-        /// Control RequiredFieldValidator2.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-
-        /// <summary>
         /// Control Label4.
         /// </summary>
         /// <remarks>
@@ -103,15 +103,6 @@ namespace MantenimientoBD
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDireccion;
-
-        /// <summary>
-        /// Control RequiredFieldValidator3.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
 
         /// <summary>
         /// Control Label5.
@@ -150,15 +141,6 @@ namespace MantenimientoBD
         protected global::System.Web.UI.WebControls.TextBox txtMail;
 
         /// <summary>
-        /// Control RegularExpressionValidator1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
-
-        /// <summary>
         /// Control Label7.
         /// </summary>
         /// <remarks>
@@ -177,15 +159,6 @@ namespace MantenimientoBD
         protected global::System.Web.UI.WebControls.TextBox txtEdad;
 
         /// <summary>
-        /// Control RangeValidator1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
-
-        /// <summary>
         /// Control btnGrabar.
         /// </summary>
         /// <remarks>
@@ -195,6 +168,15 @@ namespace MantenimientoBD
         protected global::System.Web.UI.WebControls.Button btnGrabar;
 
         /// <summary>
+        /// Control GridView1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        /// <summary>
         /// Control lblResult.
         /// </summary>
         /// <remarks>
@@ -202,14 +184,5 @@ namespace MantenimientoBD
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblResult;
-
-        /// <summary>
-        /// Control ValidationSummary1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
     }
 }
